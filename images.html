@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Images</title>
+    <style>
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      li{
+        float: left;
+      }
+      li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover{
+        background-color: #111;
+      }
+    </style>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="images.html">Images</a></li>
+      <li><a href="layouts.html">Layouts</a></li>
+      <li><a href="list.html">List</a></li>
+      <li><a href="text.html">Text</a></li>
+      <li><a href="dropdownNavbar.html">Dropdown Navigation Bar</a></li>
+    </ul>
+    <style>
+      body{
+        background-color: #f9f9f9;
+      }
+      img {
+        height: 200px;
+      }
+      #borderRadius{
+        border-radius: 6px;
+      }
+      #thumbnail{
+        border: 1px solid #000;
+        border-radius: 4px;
+        padding 5px;
+      }
+      #responsive{
+        max-width: 100%;
+        height: auto;
+      }
+      div.polaroid {
+        width: 80%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+      }
+
+      div.container {
+        text-align: center;
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    Border-Radius: <br /><img id="borderRadius" src="dog-isolated-on-white-1379711918x5I.jpg" /><br />
+    Thumbnail: <br /><img id="thumbnail" src="dog-isolated-on-white-1379711918x5I.jpg" /><br />
+    Responsive: <br /><img id="responsive" src="dog-isolated-on-white-1379711918x5I.jpg" /><br />
+    <div class="polaroid">
+      <img src="dog-isolated-on-white-1379711918x5I.jpg" />
+      <div class="container">
+        <p>Polaroid Card</p>
+      </div>
+    </div><br />
+    Opacity: <br /><img id="opacity" src="dog-isolated-on-white-1379711918x5I.jpg" /><br />
+  </body><br />
+  <a href="index.html">Back to Home</a><br />
+  <a href="layouts.html">Next</a>
+</html>
