@@ -1,1 +1,1 @@
-# LindsayB1989CSSstudy.github.io
+# 2020-CSS-Study-Project
